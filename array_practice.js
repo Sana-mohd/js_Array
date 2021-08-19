@@ -1,0 +1,12 @@
+arr=["sana",5,"Ali",15,"khan"]
+console.log(arr[2]);
+arr.push(2);
+console.log(arr);
+arr.unshift(19)
+console.log(arr);
+arr.pop()
+console.log(arr);
+arr.shift()
+console.log(arr);
+console.log(arr.indexOf("Ali"));
+console.log(Array.isArray(arr));
